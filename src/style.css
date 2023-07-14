@@ -1,0 +1,10 @@
+.home-container {
+    background-image: url('https://img.freepik.com/vector-gratis/elementos-vectoriales-etiquetas-vintage-fitness-gimnasio-gimnasio-fitness-deportivo-elemento-musculacion-mancuernas-barra-ilustracion-etiqueta_1284-47795.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }

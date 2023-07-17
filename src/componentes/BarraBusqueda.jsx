@@ -22,7 +22,7 @@ export const BarraBusqueda = ({ onSearch }) => {
 
   return (
     <InputGroup className='my-3'>
-        <Form.Control
+      <Form.Control
         type="text" value={busquedaTerm} onChange={handleInputChange} onKeyPress={handleKeyPress} placeholder="Buscar por categoría o nombre" />
       <Button variant="warning" onClick={handleSearch}>Buscar</Button>
     </InputGroup>

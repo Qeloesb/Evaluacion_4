@@ -7,7 +7,7 @@ import { RutinaEjercicios } from "./screen/RutinasEjercicios";
 import { PlanesEntrenamiento } from "./screen/PlanesEntrenamiento";
 import { MisRutinas } from "./screen/MisRutinas";
 import { NavBar } from "./componentes/Navbar";
-import { Footer2 } from "./componentes/Footer2";
+import { Footer } from "./componentes/Footer";
 
 
 
@@ -26,7 +26,7 @@ export const App = () =>{
                     <Route path='/MisRutinas' exact component={MisRutinas}/>
                 </Switch>
                 </div>
-                <Footer2/>
+                <Footer/>
             </Router>
         </div>
        

@@ -6,10 +6,10 @@ import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 
 export const NavBar = () => {
-    return(
-      <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+  return (
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container >
-        <Navbar.Brand to='/'><img src='./logoFit.png' width='55'/></Navbar.Brand>
+        <Navbar.Brand to='/'><img src='./logoFit.png' width='55' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

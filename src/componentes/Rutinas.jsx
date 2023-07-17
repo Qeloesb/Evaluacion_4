@@ -1,11 +1,11 @@
 import React from 'react';
-import { ListGroup, Form,Container, Row, Col,  } from 'react-bootstrap';
+import { ListGroup, Form, Container, Row, Col, } from 'react-bootstrap';
 
 export const Rutinas = () => {
-    const rutinasGuardadas = JSON.parse(localStorage.getItem('rutinas') || '[]');
+  const rutinasGuardadas = JSON.parse(localStorage.getItem('rutinas') || '[]');
 
-    return (
-        <Container>
+  return (
+    <Container>
       <h1 className="my-4 text-warning">Rutinas Añadidas</h1>
       <Row>
         {rutinasGuardadas.map((rutina) => (

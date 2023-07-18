@@ -1,6 +1,3 @@
-import brazos from "./img/brazos.jpg"
-import espalda from "./img/espalda.jpg"
-import pecho from "./img/pecho.jpeg"
 import curl_de_biceps from "./img/curl_de_biceps.jpg"
 import step_back_squat from "./img/step_back_squat.jpg"
 import peso_muerto_a_una_pierna from "./img/peso_muerto_a_una_pierna.jpg"

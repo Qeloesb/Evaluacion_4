@@ -1,6 +1,5 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import { Home } from "./screen/Home";
 import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
 import { RutinaEjercicios } from "./screen/RutinasEjercicios";

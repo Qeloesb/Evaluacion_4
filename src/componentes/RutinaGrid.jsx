@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useState} from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Modals } from "./Modals";
@@ -44,8 +44,8 @@ export const RutinaGrid = () => {
                 <div className="row justify-content-center align-item-center bg-dark">
                     {filtroData.map((item, index) => {
                         return (
-                            <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4" key={index} >
-                                <div className="overflow-hidden h-100 shadow">
+                            <div className="col-12 col-md-6 col-lg-3 mx-0 mb-4" key={index} >
+                                <div className=" overflow-hidden h-100 shadow">
                                     <Card style={{ width: '18rem' }} >
                                         <Card.Img variant="top" src={item.imgSrc} />
                                         <Card.Body>
@@ -63,7 +63,7 @@ export const RutinaGrid = () => {
                 </div>
             </div>
             {verData && (
-                <Modals show={show} handleClose={handleClose} nombre={verData.nombre} desc={verData.desc} submit={handleModalSubmit} />
+                <Modals show={show} handleClose={handleClose} nombre={verData.nombre} desc={verData.desc} repeticiones={verData.repeticiones} series={verData.series} descanso={verData.descanso} submit={handleModalSubmit} />
             )}
 
         </>
